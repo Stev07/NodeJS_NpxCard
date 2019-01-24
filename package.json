@@ -1,16 +1,17 @@
 {
   "name": "dossinsteve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "npx card",
   "main": "index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Stev07/NodeJS_NpxCard.git"
-},
+  },
   "dependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.2",
-    "figlet": "^1.2.1"
+    "figlet": "^1.2.1",
+    "npx": "^10.2.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -18,7 +19,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-      "dossinsteve": "./index.js"
+    "dossinsteve": "./index.js"
   },
   "author": "Steve Dossin",
   "license": "MIT"
